@@ -1,9 +1,5 @@
 # TODO List Manager (Bash)
 
-Jednoduchý nástroj do příkazové řádky pro správu osobních úkolů. Umožňuje úkoly **přidávat**, **zobrazit**, **označit jako hotové** a **mazat**. Seznam je perzistentní mezi spuštěními a při ukončení se vytvoří **záloha**.
-
-> Nástroj je záměrně napsaný „začátečnicky“ (funkce, `read`, cyklus `while`, `case`, práce se soubory). Odpovídá tématům z kurzu – interakce s uživatelem, práce se soubory a adresáři, základy grep/sed. (viz prezentace *Advanced Techniques in Bash* – User Interaction str. 3–6; Creating & Managing Directories str. 13–17; Writing to Files str. 15) :contentReference[oaicite:3]{index=3}
-
 ---
 
 ## Instalace (Ubuntu)
