@@ -4,7 +4,6 @@
 
 ## Instalace (Ubuntu)
 
-```bash
 # 1) Ulož soubor jako todo.sh
     chmod +x todo.sh
 
