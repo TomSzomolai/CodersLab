@@ -115,7 +115,6 @@ complete_task() {
         radek=$(sed -n "${cislo}p" "$TODO_FILE")
         if [[ "$radek" == *"[PENDING]"* ]]; then
             novy="${radek/\[PENDING\]/[COMPLETED]} - Completed: $(date '+%Y-%m-%d %H:%M')"
-            # Bezpečné přepsání celého řádku (použijeme jiný oddělovač než /)
             sed -i "${cislo}s#.*#${novy}#" "$TODO_FILE"
             echo "Označeno jako hotové."
         else
